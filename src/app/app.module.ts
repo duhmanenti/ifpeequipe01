@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ClaraLarissaComponent } from './clara-larissa/clara-larissa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClaraLarissaComponent
   ],
   imports: [
     BrowserModule
